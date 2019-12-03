@@ -1,13 +1,13 @@
-package com.services.order.save.api.SaveOrderAPI;
+package com.services.serviceInfo.api;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class SaveOrderApiApplication {
+public class GetServiceInfoApiApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(SaveOrderApiApplication.class, args);
+		SpringApplication.run(GetServiceInfoApiApplication.class, args);
 	}
 
 }

@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.services.login.service;
+package com.services.login.base.service;
 
 /**
  * @author PRASADBolla
