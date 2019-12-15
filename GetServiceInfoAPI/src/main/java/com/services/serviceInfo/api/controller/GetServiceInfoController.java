@@ -27,5 +27,8 @@ public class GetServiceInfoController {
 	public ResponseEntity<List<GetServiceInfoResponse>> getServiceInfo(
 			@PathVariable String tenentId, @PathVariable String serviceType) {
 		return ResponseEntity.ok(getServiceInfoService.getGetServiceInfoList());
+		
 	}
+	
+
 }
