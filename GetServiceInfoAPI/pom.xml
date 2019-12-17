@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.services.serviceInfo.api</groupId>
-	<artifactId>GetServiceInfoAPI</artifactId>
+	<artifactId>ExtGetServiceInfoAPI</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>GetServiceInfoAPI</name>
+	<name>ExtGetServiceInfoAPI</name>
 	<description>Demo project for Spring Boot</description>
 
 	<properties>
