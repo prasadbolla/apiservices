@@ -18,7 +18,8 @@ public class RetrieveServiceResponse {
 	public Date requestDate;
 	public Date requestExpiry;
 	public String statusId;
-	public String scheduleType;
+	public int scheduleType;
+
 	public Date scheduleDateTime;
 	public int schedulePriority;
 	/**
@@ -117,18 +118,7 @@ public class RetrieveServiceResponse {
 	public void setStatusId(String statusId) {
 		this.statusId = statusId;
 	}
-	/**
-	 * @return the scheduleType
-	 */
-	public String getScheduleType() {
-		return scheduleType;
-	}
-	/**
-	 * @param scheduleType the scheduleType to set
-	 */
-	public void setScheduleType(String scheduleType) {
-		this.scheduleType = scheduleType;
-	}
+
 	/**
 	 * @return the scheduleDateTime
 	 */
@@ -153,5 +143,10 @@ public class RetrieveServiceResponse {
 	public void setSchedulePriority(int schedulePriority) {
 		this.schedulePriority = schedulePriority;
 	}
-	
+	public int getScheduleType() {
+		return scheduleType;
+	}
+	public void setScheduleType(int scheduleType) {
+		this.scheduleType = scheduleType;
+	}
 }
