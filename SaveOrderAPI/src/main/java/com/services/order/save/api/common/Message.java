@@ -51,9 +51,11 @@ public class Message {
 		this.description = description;
 	}
 
-	public Message getSuccessMessage() {
-		return new Message(CommonConstants.SUCCESS_MESSAGE_ID,
-				CommonConstants.SUCCESS_MESSAGE_DESCRIPTION);
-
-	}
+	/*
+	 * public Message getSuccessMessage() { return new
+	 * Message(CommonConstants.SUCCESS_MESSAGE_ID,
+	 * CommonConstants.SUCCESS_MESSAGE_DESCRIPTION);
+	 * 
+	 * }
+	 */
 }
